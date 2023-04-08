@@ -273,7 +273,7 @@ header {
 .intro {
   position: relative;
 
-  background-image: url(/img/packmanBackground.jpg);
+  background-image: url(../img/packmanBackground.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -322,7 +322,7 @@ header {
 .my-services {
 
   background-color: var(--clr-dark);
-  background-image: url(/img/laptop_background.jpg);
+  background-image: url(../img/laptop_background.jpg);
   background-size: cover;
   /* background-blend-mode: multiply; */
   text-align: center;
@@ -418,7 +418,7 @@ header {
   text-align: center;
 
 
-  background-image: url(/img/galaxy.jpg);
+  background-image: url(../img/galaxy.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
