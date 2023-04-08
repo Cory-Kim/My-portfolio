@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/> 
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Personal Portfolio</title>
+</head>
+<body>
+  
+  <header>
+
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+        <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- Intro -->
+  <section class="intro" id="home">
+    <h1 class="section__title--intro">
+      Details of my projects
+    </h1>
+    <p class="section__subtitle--intro">Click photos to move to my GitHub to view the actual code</p>
+    <img src="img/vecteezy_programmer-people-concept-use-laptop-and-programming-code_.jpg" alt="picture of myself" class="intro__img" style="border-radius: 50%;">
+  </section>
+
+
+  <div class="portfolio-item-individual" id="pphoto">
+    <a href="https://github.com/JeffXJin/dishi">
+    <img src="img/restaurants-app-ui-design.png" alt="" id="dishi">
+    </a>
+    <p>Restaurant application, where users and restaurant owners can register themselves to arrange meetings for selling/buying food leftover at a low price, developed as a team-based Agile project using Firebase and Javascript.
+    </p>
+    <p>Developed general UI/UX design and added it to my favorite, review section.
+    </p>
+
+    <a href="https://github.com/Cory-Kim/PNSparkLi" id="park">
+    <img src="img/parks.jpg" alt="" id="pphoto">
+    </a>
+    <p>Restaurant application, where users and restaurant owners can register themselves to arrange meetings for selling/buying food leftover at a low price, developed as a team-based Agile project using Firebase and Javascript.
+    </p>
+
+    <a href="https://github.com/Cory-Kim/Dice-Game" id="dice">
+    <img src="img/dice_game.png" alt="" id="pphoto">
+    </a>
+    <p>It’s a dice game that I made using JavaScript, JQuery, CSS, and SCSS.
+    </p>
+
+    <a href="https://github.com/Cory-Kim/Voting-website" id="voting">
+    <img src="img/comment_vote.png" alt="" id="pphoto">
+    </a>
+    <p>It’s a website where people can vote for their comments.
+    </p>
+    <p>Implemented using SQL, PHP, and Javascript
+    </p>
+
+    <a href="https://github.com/Cory-Kim/Movies-Listing-Website" id="movies">
+    <img src="img/movieAPI.png" alt="" id="pphoto">
+    </a>
+    <p>It’s a website that lists movies with API from the https://www.themoviedb.org/
+    </p>
+    <p>Implemented using AngularJS, Javascript, CSS, and Redux.
+    </p>
+
+
+    <a href="https://github.com/Cory-Kim/Snake-Game" id="snake">
+    <img src="img/snake_game.png" alt="" id="pphoto">
+    </a>
+    <p>It’s a snake game that I made using JavaFX, Java
+    </p>
+
+    <a href="https://github.com/Cory-Kim/Ping-Pong-Game" id="pingpong">
+    <img src="img/ping_pong.png" alt="" id="pphoto">
+    </a>
+    <p>It’s a ping pong game that I made using JavaFX, Java
+    </p>
+
+    <a href="https://github.com/Cory-Kim/RPN-Calculator" id="rpn">
+    <img src="img/RPN_calculator.png" alt="" id="pphoto">
+    </a>
+    <p>It’s an RPN calculator I made with a custom Stack class I made using C++
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- <a href="mailto:cdokyung@gmail.com" class="footer-link">cdokyung@gmail.com</a> -->
+    <ul class="social-list">
+
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/Cory-Kim">
+          <img src="img/github.png" width="25px" id="icon">
+        </a>
+      </li>
+
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/dokyung-kim-0a7a8425b/">
+          <img src="img/linkedin.png" width="25px" id="icon">
+        </a>
+      </li>
+
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/intent/tweet?text=@Necrodia">
+          <img src="img/twitter.png" width="25px" id="icon">
+        </a>
+      </li>
+
+      <li class="social-list__item">
+        <a href="mailto:cdokyung@gmail.com" class="footer-link">
+          <img src="img/email.png" width="25px" id="icon">
+        </a>
+      </li>
+
+    </ul>
+  </footer>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

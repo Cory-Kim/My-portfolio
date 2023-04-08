@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/> 
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Personal Portfolio</title>
+</head>
+<body>
+  
+  <header>
+
+    <!-- <div class="logo">
+      <img src="img/myself.jpeg" alt="myself">
+    </div> -->
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- Intro -->
+  <section class="intro" id="home">
+    <h1 class="section__title--intro">
+      Hi, I am <br><strong>Dokyung Kim</strong>
+    </h1>
+    <p class="section__subtitle--intro"> Aspiring Programming Software Developer</p>
+    <img src="img/myself.jpeg" alt="picture of myself" class="intro__img" style="border-radius: 50%;">
+  </section>
+
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title--services">What I am capable of</h2>
+    <div class="services">
+
+      <div class="service">
+        <h3>Fullstack development</h3>
+        <p>
+          When I studied at BCIT, I had a project course in which I had to form a group of 4 people to create an
+          app that can give a positive influence on problems raising near us. Our group eventually come up with an
+          idea that it would be nice to not waste all the leftover food. So we made an app that restaurant owner
+          can register their restaurants and customer can arrange a meeting at night to buy food at a cheap price.
+          This is a win-win situation for both owner and customer because the owner can sell food that has to be thrown away
+          anyway and people can buy food at a cheap price.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Leetcode</h3>
+        <p>
+          This might not be the most efficient way of learning the programming as I heard some people saying that 
+          Leetcode is just for passing interview but it actually helped me to improve my programming skills a lot.
+          It made me understand concepts such as hashmap, stack, trees. At first, I wasn't able to solve easy questions
+          but now I made my own answers to a few questions.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Different programming languages</h3>
+        <p>
+          On my time at BCIT, I learned lots of new programming languages. It was really challenging because professors were
+          teaching at really fast pace. It was hard to catch up at times but as I study, I was not only able to learn lots of
+          languages, but an ability to learn something new quickly. I found this trait especially valuable because IT world
+          changes fast over the time and in order to keep up, it's necessary to learn knowledgy quickly. Over the years, I was able
+          to learn Python, Java, C++,  C,  Node js, PHP, AngularJS, SQL, Node JS, MongoDB, Firebase, Javascript, CSS, JQuery, and Redux.
+        </p>
+      </div>
+
+    </div>
+
+    <a href="#work" class="btn">My Projects</a>
+
+  </section>
+
+  <!-- About me -->
+  <section class="about-me" id="about">
+
+    <h2 class="section__title--about">Who I am</h2>
+    <p class="section__subtitle--about">Junior Software Developer</p>
+
+    <div class="about-me__body">
+      <p>Since I was young, my dream has been to become a doctor. 
+        I don’t know if it’s because of the unknown influence from my parent 
+        as my parents wanted me to become a doctor like many parents in Asia do. As I go to school, 
+        I noticed that, unlike most other students, I weirdly liked Math more than all the subjects. 
+        I felt like all other subjects require me to memorize new words and concepts while in Math, 
+        I use few formulas to draw out the answer. I especially liked how I can solve complex problems in step by step. 
+        As I age, I begin to accept the fact that I wasn’t smart enough to become a doctor and I studied nursing at university. 
+        At this point, I still felt like I should at least get a job in the medical field. But, as time goes, 
+        I became more and more depressed as I just didn’t find my studying fun. One day, I was watching Youtube, 
+        and learning about basic programming came up as my recommended video. Without much thinking, 
+        I clicked the video and watched the whole 5 hours video. After watching the video, 
+        I was surprised that I learned a lot by just watching the Youtube video. 
+        I felt like it’s interesting how you build a program step by step just like Math. From this day, my programming journey started. 
+        It was a bit late but I am glad that I finally found something that I like. I decided to pursue the dream of becoming a programmer. 
+        So far I have learned Java, C, C++, PHP, Node JS, Jquery, Javascript, CSS, HTML, SQL, Bootstrap, Git/GitHub, and Linux.
+        I’ve started learning new languages like MongoDB, and Angular. 
+        I am still very enthusiastically grabbing onto any other programming languages and frameworks.</p>
+    </div>
+
+    <img src="img/myself2.jpg" alt="myself2" class="about-me__img">
+
+  </section>
+
+  <!-- My Work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title">My projects</h2>
+    <br>
+
+    <div class="portfolio">
+
+      <!-- Portfolio item 01 -->
+      <a href="portfolio-item.html#dishi" class="portfolio__item">
+        <img src="img/restaurants-app-ui-design.png" alt="">
+      </a>
+
+      <!-- Portfolio item 02 -->
+      <a href="portfolio-item.html#park" class="portfolio__item">
+        <img src="img/parks.jpg" alt="" id="photo">
+      </a>
+
+      <!-- Portfolio item 03 -->
+      <a href="portfolio-item.html#dice" class="portfolio__item">
+        <img src="img/dice_game.png" alt="" id="photo">
+      </a>
+
+      <!-- Portfolio item 04 -->
+      <a href="portfolio-item.html#voting" class="portfolio__item">
+        <img src="img/comment_vote.png" alt="" id="photo">
+      </a>
+
+      <!-- Portfolio item 05 -->
+      <a href="portfolio-item.html#movies" class="portfolio__item">
+        <img src="img/movieAPI.png" alt="" id="photo">
+      </a>
+
+      <!-- Portfolio item 06 -->
+      <a href="portfolio-item.html#snake" class="portfolio__item">
+        <img src="img/snake_game.png" alt="" id="photo">
+      </a>
+
+      <!-- Portfolio item 07 -->
+      <a href="portfolio-item.html#pingpong" class="portfolio__item">
+        <img src="img/ping_pong.png" alt="" id="photo">
+      </a>
+
+      <!-- Portfolio item 08 -->
+      <a href="portfolio-item.html#rpn" class="portfolio__item">
+        <img src="img/RPN_calculator.png" alt="" id="photo">
+      </a>
+      
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- <a href="mailto:cdokyung@gmail.com" class="footer-link">cdokyung@gmail.com</a> -->
+    <ul class="social-list">
+
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/Cory-Kim">
+          <img src="img/github.png" width="25px">
+        </a>
+      </li>
+
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/dokyung-kim-0a7a8425b/">
+          <img src="img/linkedin.png" width="25px">
+        </a>
+      </li>
+
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/intent/tweet?text=@Necrodia">
+          <img src="img/twitter.png" width="25px">
+        </a>
+      </li>
+
+      <li class="social-list__item">
+        <a href="mailto:cdokyung@gmail.com" class="footer-link">
+          <img src="img/email.png" width="25px">
+        </a>
+      </li>
+
+    </ul>
+  </footer>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
